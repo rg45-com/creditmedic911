@@ -548,7 +548,7 @@ tbody {
 /*Backgrounds
 ---------------------------------- */
 .background-img-1 {
-  background: url("../images/background-img-1.jpg") 50% 0px no-repeat;
+  background: url("../images/repairhands.jpg") 50% 0px no-repeat;
 }
 
 .background-img-2 {
@@ -749,7 +749,7 @@ tbody {
 }
 
 .dark-translucent-bg:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .dark-translucent-bg.hovered:hover:after {
@@ -6626,7 +6626,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
     margin: 0;
   }
 
-  .site-slogan {
+  .site-slogan, .logo {
     text-align: center;
   }
 
