@@ -34,34 +34,18 @@
 		<!-- Plugins -->
 		<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
 		<link href="plugins/rs-plugin-5/css/settings.css" rel="stylesheet">
-		<link href="plugins/rs-plugin-5/css/layers.css" rel="stylesheet">
 		<link href="plugins/rs-plugin-5/css/navigation.css" rel="stylesheet">
 		<link href="css/animations.css" rel="stylesheet">
 		<link href="plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
 		<link href="plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">
-		<link href="plugins/hover/hover-min.css" rel="stylesheet">		
 		
 		<!-- core CSS file -->
 		<link href="css/style.css" rel="stylesheet" >
-		<!-- The Project's Typography CSS file, includes used fonts -->
-		<!-- Used font for body: Roboto -->
-		<!-- Used font for headings: Raleway -->
 		<link href="css/typography-default.css" rel="stylesheet" >
-		<link href="css/skins/green.css" rel="stylesheet">
-		
-
-		<!-- Custom css --> 
-		<link href="css/custom.css" rel="stylesheet">
-		
+		<link href="css/green.css" rel="stylesheet">	
 		
 	</head>
 
-	<!-- body classes:  -->
-	<!-- "boxed": boxed layout mode e.g. <body class="boxed"> -->
-	<!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->
-	<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
-	<!-- "gradient-background-header": applies gradient background to header -->
-	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
 	<body class="no-trans front-page transparent-header  ">
 
 		<!-- scrollToTop -->
@@ -75,11 +59,6 @@
 			<!-- header-container start -->
 			<div class="header-container">
 				<!-- header start -->
-				<!-- classes:  -->
-				<!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
-				<!-- "dark": dark version of header e.g. class="header dark clearfix" -->
-				<!-- "full-width": mandatory class for the full-width menu layout -->
-				<!-- "centered": mandatory class for the centered logo layout -->
 				<!-- ================ --> 
 				<header class="header  fixed    clearfix">
 					
@@ -110,10 +89,6 @@
 								<!-- ================ -->
 								<div class="header-second clearfix">
 									<!-- main-navigation start -->
-									<!-- classes: -->
-									<!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
-									<!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
-									<!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
 									<!-- ================ -->
 									<div class="main-navigation animated">
 
@@ -207,8 +182,20 @@
 									data-mask_in="x:0;y:0;s:inherit;e:inherit;"
 									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Bad Credit Ruining Your Life?
 								</div>
+								
+								<!-- LAYER NR. 1.2 -->
+								<div class="tp-caption large_white"
+									data-x="center"
+									data-y="260"
+									data-start="4500"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[-50%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
+									data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:[-50%];s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Get a free consultation, plus a free guide on how to start restoring your credit
+								</div>
 
-								<!-- LAYER 1.2 -->
+								<!-- LAYER 1.3 -->
 								<div class="tp-caption"
 									data-x="center"
 									data-y="bottom"
@@ -279,7 +266,19 @@
 									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">The Credit Restoration Solution
 								</div>
 								
-								<!-- LAYER 2.4 -->
+								<!-- LAYER NR. 2.4 -->
+								<div class="tp-caption medium_white"
+									data-x="center"
+									data-y="330"
+									data-start="1600"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[-50%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
+									data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:[-50%];s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Get a free consultation, plus a free guide on how to start restoring your credit
+								</div>
+								
+								<!-- LAYER 2.5 -->
 								<div class="tp-caption"
 									data-x="center"
 									data-y="bottom"
@@ -670,7 +669,6 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 				</div>
 			</section>
 			<!-- section end -->
-			<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
 			<!-- ================ -->
 			<footer id="footer" class="clearfix ">
 
@@ -747,32 +745,33 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 		</div>
 		<!-- page-wrapper end -->
 
-		<!-- JavaScript files placed at the end of the document so the pages load faster -->
-		<!-- ================================================== -->
+		<!-- JavaScript files -->
+		<!-- ================ -->
 		<!-- Jquery and Bootstap core js files -->
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 		<!-- Modernizr javascript -->
 		<script type="text/javascript" src="plugins/modernizr.js"></script>
-		
-		
     <!-- Revolution Slider -->
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+    <!-- required for local dev only -->
+<!--
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js"></script>
     <script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js"></script>
+-->
 		
 		<!-- Magnific Popup javascript -->
 		<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 		<!-- Appear javascript -->
 		<script type="text/javascript" src="plugins/waypoints/jquery.waypoints.min.js"></script>
 		<!-- Count To javascript -->
-		<script type="text/javascript" src="plugins/jquery.countTo.js"></script>
+		<!-- script type="text/javascript" src="plugins/jquery.countTo.js"></script -->
 		<!-- Parallax javascript -->
-		<script src="plugins/jquery.parallax-1.1.3.js"></script>
+		<!-- script src="plugins/jquery.parallax-1.1.3.js"></script -->
 		<!-- Contact form -->
-		<script src="plugins/jquery.validate.js"></script>
+		<!-- script src="plugins/jquery.validate.js"></script -->
 		<!-- Owl carousel javascript -->
 		<script type="text/javascript" src="plugins/owlcarousel2/owl.carousel.min.js"></script>
 		<!-- SmoothScroll javascript -->
@@ -781,7 +780,7 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 		<!-- Initialization of Plugins -->
 		<script type="text/javascript" src="js/template.js"></script>
 		<!-- Custom Scripts -->
-		<script type="text/javascript" src="js/custom.js"></script>
+		<!-- script type="text/javascript" src="js/custom.js"></script -->
 
 	</body>
 </html>
