@@ -21,6 +21,10 @@ body {
   font-family: "Pacifico", cursive, sans-serif;
 }
 
+.logo-link {
+  font-size: 30px; font-weight: bold; text-decoration: none;
+}
+
 /*Typography
 ---------------------------------- */
 html {
@@ -190,6 +194,10 @@ a:hover {
 a:focus, a:active {
   outline: none;
   color: #0c9ec7;
+}
+
+a.noUnderline, a.noUnderline:hover, a.noUnderline:focus, a.noUnderline:visited {
+text-decoration: none;
 }
 
 .link-dark {

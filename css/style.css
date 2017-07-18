@@ -549,6 +549,7 @@ tbody {
 ---------------------------------- */
 .background-img-1 {
   background: url("../images/repairhands.jpg") 50% 0px no-repeat;
+  background-position:50% 30%;
 }
 
 .background-img-2 {
@@ -645,6 +646,7 @@ tbody {
 .dark-bg a:not(.btn) {
   text-decoration: underline;
   color: #cdcdcd;
+  text-decoration: none;
 }
 
 .dark-bg a:not(.btn):hover {
@@ -6567,13 +6569,14 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
   margin: 0 auto;
 }
 
-#logo-footer {
+.logo-footer a {
   margin-bottom: 20px;
+  font-size: 30px; font-weight: bold; text-decoration: none;
 }
 
 .site-slogan {
   color: #777777;
-  font-size: 11px;
+  font-size: 16px;
   padding: 3px 0 0;
   font-weight: 300;
   opacity: 1;
