@@ -14,7 +14,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="theme-color" content="#ffffff">
 
 		<!-- Web Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -42,6 +48,16 @@
 	</head>
 
 	<body class="no-trans front-page transparent-header  ">
+<!--
+  	<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+-->
 
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -53,9 +69,68 @@
 		
 			<!-- header-container start -->
 			<div class="header-container">
+  			
+  			<!-- header-top start -->
+				<!-- classes:  -->
+				<!-- "dark": dark version of header top e.g. class="header-top dark" -->
+				<!-- "colored": colored version of header top e.g. class="header-top colored" -->
+				<!-- ================ -->
+				<div class="header-top dark ">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3 col-sm-6">
+								<!-- header-top-first start -->
+								<!-- ================ -->
+								<div class="header-top-first clearfix">
+									<ul class="social-links circle small clearfix hidden-xs">
+<!-- 										<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li> -->
+										<li class="instagram"><a target="_blank" href="https://www.instagram.com/creditmedic911/"><i class="fa fa-instagram"></i></a></li>
+<!--								<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+                		<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+										<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+										<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
+										<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
+-->
+										<li class="facebook"><a target="_blank" href="https://www.facebook.com/AlesaFlowersOfficial"><i class="fa fa-facebook"></i></a></li>
+<!-- 										<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li> -->
+									</ul>
+									<div class="social-links hidden-lg hidden-md hidden-sm circle small">
+										<div class="btn-group dropdown">
+											<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+											<ul class="dropdown-menu dropdown-animation">
+<!-- 												<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li> -->
+												<li class="instagram"><a target="_blank" href="https://www.instagram.com/creditmedic911/"><i class="fa fa-instagram"></i></a></li>
+
+<!--
+												<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+												<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+												<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+												<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
+												<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
+-->
+												<li class="facebook"><a target="_blank" href="https://www.facebook.com/AlesaFlowersOfficial"><i class="fa fa-facebook"></i></a></li>
+<!-- 												<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li> -->
+											</ul>
+										</div>
+									</div>
+									
+								</div>
+								<!-- header-top-first end -->
+							</div>
+							<div class="col-xs-9 col-sm-6 text-right">
+                <ul class="list-inline">
+									<li style="font-size: 15px;">Get Credit Help Now &nbsp; <i class="fa fa-phone pr-5 "></i>702-527-4101</li>
+								</ul>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- header-top end -->
+				
+				
 				<!-- header start -->
 				<!-- ================ --> 
-				<header class="header  fixed    clearfix">
+				<header class="header fixed fixed-before clearfix">
 					
 					<div class="container">
 						<div class="row">
@@ -66,13 +141,15 @@
 
 									<!-- logo -->
 									<div id="logo" class="logo">
-										<a href="index.html" class="logo-link">Credit Medic 911</a>
+										<a href="index.html" class="logo-link"><img id="logo_img" src="images/credit_medic_logo.jpg" alt="Credit Medic 911"></a>
 									</div>
 
 									<!-- name-and-slogan -->
+<!--
 									<div class="site-slogan">
 										Easy Credit Restoration
 									</div>
+-->
 									
 								</div>
 								<!-- header-first end -->
@@ -335,9 +412,12 @@
 					<div class="col-md-8 col-md-offset-2">
 						<h2 class="text-center title"><span itemprop="jobTitle">The <strong>Credit Medic</strong></span></h2>
 						<div class="separator"></div>
-						<p class="large text-center">My name is <span class="text-default" itemprop="name">Alesa Flowers</span> and my passion is <strong>helping people like you</strong> restore their credit.  I can help  <strong>stop bad credit scores</strong> from <strong>ruining people’s lives</strong>.</p>
-						
+						<p class="large text-center">My name is <span class="text-default" itemprop="name">Alesa Flowers</span> and my passion is <strong>helping people like you</strong> restore their credit.  I can help  <strong>stop bad credit scores</strong> from <strong>ruining people’s lives</strong>.<br/>
+  						<a href="https://www.facebook.com/AlesaFlowersOfficial" target="_blank">Connect with me on Facebook</a>
+						</p>            
 					</div>
+					
+					
 					<div class="row">
 						<div class="col-md-6">
   						<p>By now, you’ve probably realized how devastating it is to have bad credit.</p>
@@ -365,6 +445,8 @@
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-12">
     					<br> 
 <p>In 2013, I embarked on a personal journey to become financially healthier.  After being sought after from a bank manager, I decided to partner with Financial Education Services. I become an Agent and saw the opportunity to use this system to educate people on the importance of living a financially healthy life. I then became a National Recruiter and a Regional Sales Director for a multi-million dollar financial institution, widely known for their Credit Restoration products that reshape the financial status of both men and women.</p>
@@ -372,9 +454,17 @@
 <p>I executed my IOA system to transform financial situations and provide long-term results. I've proven through working with hundreds of clients that with my system and my spectacular workshops…YOU WILL enjoy DAILY the rest of your life!</p>
  
 <p>I have a kindred spirit, am very passionate, provide unwavering support, high-energy, and I'm very knowledgeable! I pride myself in being highly personable with each one of my clients, and I'm committed to working with you until you too are FINANCIALLY transformed!</p>
-
-            </div>	
-
+            </div>
+<!--
+            <div class="col-md-6">
+              <div class="fb-page" data-href="https://www.facebook.com/AlesaFlowersOfficial" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AlesaFlowersOfficial" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AlesaFlowersOfficial">Alesa Flowers</a></blockquote></div>
+            </div>
+-->
+					</div>
+				  <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#footer" class="btn btn-lg btn-success smooth-scroll">Contact Me - Get Credit Help Now</a>
+            </div>
 					</div>
 				</div>
 			</section>
@@ -690,19 +780,35 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 			<!-- ================ -->
 			<footer id="footer" class="clearfix ">
 
+
 				<!-- .footer start -->
 				<!-- ================ -->
 				<div class="footer">
 					<div class="container">
 						<div class="footer-inner">
 							<div class="row">
-								<div class="col-md-6">
+  							
+  							
+								<div class="col-sm-6 col-md-6 col-lg-6 col-lg-offset-1">
 									<div class="footer-content">
-										<div class="logo-footer"><a href="index.html">Credit Medic 911</a></div>
+										<div class="logo-footer"><a href="index.html"><img src="images/credit_medic_logo.jpg" alt="Credit Medic 911"></a></div>
 										<p>To schedule your free consultation and receive the free guide on how to start restoring your credit, fill out this form and I'll get back to you within 24 business hours.</p>
 								  </div>
 								</div>
-								<div class="col-md-6">
+								
+								<div class="col-sm-6 col-md-6 col-lg-2 col-lg-offset-1">
+									<div class="footer-content">
+										<h2 class="title">Let's Stay Connected</h2>
+										<p>Connect with me on Facebook or Instagram, or call me to get credit help now &nbsp; <i class="fa fa-phone pr-5 "></i>702-527-4101</li></p>
+										<ul class="social-links circle animated-effect-1">
+											<li class="facebook"><a target="_blank" href="https://www.facebook.com/AlesaFlowersOfficial"><i class="fa fa-facebook"></i></a></li>
+											<li class="instagram"><a target="_blank" href="https://www.instagram.com/creditmedic911/"><i class="fa fa-instagram"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="clearfix visible-sm"></div>
+								<div class="col-md-6 col-lg-4 col-lg-offset-1">
 									<div class="footer-content">
 										<h2 class="title">Contact Me</h2>
 										<div class="alert alert-success hidden" id="MessageSent">
@@ -736,6 +842,8 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 										</form>
 									</div>
 								</div>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -749,7 +857,7 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 						<div class="subfooter-inner">
 							<div class="row">
 								<div class="col-md-12">
-									<p class="text-center">Copyright &copy; 2017</p>
+									<p class="text-center">Copyright &copy; 2018</p>
 								</div>
 							</div>
 						</div>
@@ -774,9 +882,9 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
     <!-- required for local dev only -->
-		<!-- script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js"></script -->
-    <!-- script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js"></script -->
-    <!-- script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js"></script -->
+		<script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js"></script>
 		
 		<!-- Magnific Popup javascript -->
 		<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
@@ -789,6 +897,8 @@ Get alerts by text, phone, email or mobile apps to confirm fraudulent activity.<
 		<script type="text/javascript" src="plugins/SmoothScroll.js"></script>
 		<!-- Initialization of Plugins -->
 		<script type="text/javascript" src="js/template.js"></script>
+		<!-- Facebook widget resize -->
+<!-- 		<script type="text/javascript" src="js/fb_resize.js"></script> -->
 
 	</body>
 </html>
